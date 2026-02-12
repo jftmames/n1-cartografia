@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "N1 Battery Item",
+  "type": "object",
+  "required": [
+    "id",
+    "category_code",
+    "pair_id",
+    "pair_number",
+    "variant",
+    "prompt"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "category_code": {
+      "type": "string",
+      "enum": [
+        "CAT1",
+        "CAT2",
+        "CAT3",
+        "CAT4",
+        "CAT5",
+        "CAT6",
+        "CAT7"
+      ]
+    },
+    "pair_id": {
+      "type": "string"
+    },
+    "pair_number": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 30
+    },
+    "variant": {
+      "type": "string",
+      "enum": [
+        "A",
+        "B"
+      ]
+    },
+    "prompt": {
+      "type": "string"
+    },
+    "justification_B": {
+      "type": "string"
+    },
+    "prediction": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": true
+}
