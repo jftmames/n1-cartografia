@@ -18,5 +18,8 @@ This repository publishes (1) **ex ante predictions**, (2) the **N1 test battery
 - Battery + protocol + metrics + predictions: CC BY 4.0 (`LICENSE_DATA`)
 
 ## Versioning
-Release tags: `vMAJOR.MINOR.PATCH`.
+Release tags: `v0.1.1`.
 Export generated on 2026-02-12 UTC.
+
+[![DOI](https://zenodo.org/badge/1155468528.svg)](https://doi.org/10.5281/zenodo.18621186)
+
