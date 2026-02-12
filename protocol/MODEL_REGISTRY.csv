@@ -1,0 +1,3 @@
+run_id,run_date_utc,provider,model,model_version_or_snapshot,api_endpoint,temperature,max_output_tokens,top_p,seed,prompt_wrapper_version,battery_version,battery_file,n_items_planned,n_items_completed,completion_ratio,notes
+run_openai_gpt-4o-mini_2026-02-12,2026-02-12,openai,gpt-4o-mini,,https://api.openai.com/v1/responses,0.2,400,,,,v0.1.0,N1_pairs_catalog_420.csv,420,420,1.0,""
+run_gemini_gemini-2.5-flash_2026-02-12,2026-02-12,gemini,gemini-2.5-flash,,https://generativelanguage.googleapis.com/v1beta/models/<model>:generateContent,0.2,400,,,,v0.1.0,N1_pairs_catalog_420.csv,420,420,1.0,""
